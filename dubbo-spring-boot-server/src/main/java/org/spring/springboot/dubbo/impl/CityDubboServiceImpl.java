@@ -13,7 +13,10 @@ import org.spring.springboot.dubbo.CityDubboService;
 @Service(version = "1.0.0")
 public class CityDubboServiceImpl implements CityDubboService {
 
-    public City findCityByName(String cityName) {
-        return new City(1L,2L,"温岭","是我的故乡");
+    public City findCityById(long id) {
+        if (id == 1) {
+            return new City(1L,2L,"北京","中国的首都");
+        }
+        return null;
     }
 }

@@ -6,6 +6,18 @@
     <groupId>bysocket</groupId>
     <artifactId>dubbo-spring-boot-best-pratice-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <!-- Spring Boot 启动父依赖 -->
     <parent>

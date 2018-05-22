@@ -10,8 +10,7 @@ import org.spring.springboot.domain.City;
 public interface CityDubboService {
 
     /**
-     * 根据城市名称，查询城市信息
-     * @param cityName
+     * 查询城市信息
      */
-    City findCityByName(String cityName);
+    City findCityById(long id);
 }

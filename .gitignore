@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/workspace.xml
+dubbo-spring-boot-api/dubbo-spring-boot-api.iml
+dubbo-spring-boot-api/target/
+dubbo-spring-boot-client/dubbo-spring-boot-client.iml
+dubbo-spring-boot-client/target/
+dubbo-spring-boot-server/dubbo-spring-boot-server.iml
+dubbo-spring-boot-server/target/
+xbs-springboot-dubbo.iml
