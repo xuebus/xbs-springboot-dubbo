@@ -2,7 +2,7 @@ package org.spring.springboot.controller;
 
 import org.spring.springboot.common.Result;
 import org.spring.springboot.domain.City;
-import org.spring.springboot.dubbo.CityDubboConsumerService;
+import org.spring.springboot.service.CityDubboConsumerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class TestController {
 
     @Autowired
-    CityDubboConsumerService cityDubboConsumerService;
+    private CityDubboConsumerService cityDubboConsumerService;
 
     @RequestMapping(value = "/findCityById")
     @ResponseBody

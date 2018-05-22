@@ -8,3 +8,4 @@ dubbo-spring-boot-client/target/
 dubbo-spring-boot-server/dubbo-spring-boot-server.iml
 dubbo-spring-boot-server/target/
 xbs-springboot-dubbo.iml
+/.idea/
