@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>bysocket</groupId>
-    <artifactId>dubbo-spring-boot-best-pratice-client</artifactId>
+    <groupId>xuebusi</groupId>
+    <artifactId>dubbo-spring-boot-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <build>
         <plugins>
@@ -60,8 +60,8 @@
         </dependency>
 
         <dependency>
-            <groupId>bysocket</groupId>
-            <artifactId>dubbo-spring-boot-best-pratice-api</artifactId>
+            <groupId>xuebusi</groupId>
+            <artifactId>dubbo-spring-boot-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
