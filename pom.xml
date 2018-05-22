@@ -10,9 +10,9 @@
 
 	<modules>
 
-		<module>dubbo-spring-boot-best-pratice-api</module>
-		<module>dubbo-spring-boot-best-pratice-server</module>
-		<module>dubbo-spring-boot-best-pratice-client</module>
+		<module>dubbo-spring-boot-api</module>
+		<module>dubbo-spring-boot-server</module>
+		<module>dubbo-spring-boot-client</module>
 	</modules>
 
 </project>
